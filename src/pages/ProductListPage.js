@@ -7,7 +7,7 @@ const products = ['car', 'bike', 'motorcycle'];
 const ProductListPage = () => {
 	const list = products.map((p) => (
 		<li key={p}>
-			<Link to={`/product${p}`}>{p}</Link>
+			<Link to={`/product/${p}`}>{p}</Link>
 		</li>
 	));
 

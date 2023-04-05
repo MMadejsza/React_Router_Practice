@@ -24,6 +24,10 @@ const Page = () => {
 				Component={ProductListPage}
 			/>
 			<Route
+				path='/product/:id'
+				Component={ProductPage}
+			/>
+			<Route
 				path='/admin'
 				Component={AdminPage}
 			/>
