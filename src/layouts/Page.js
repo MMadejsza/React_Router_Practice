@@ -4,6 +4,7 @@ import HomePage from '../pages/HomePage';
 import ContactPage from '../pages/ContactPage';
 import ProductPage from '../pages/ProductPage';
 import AdminPage from '../pages/AdminPage';
+import LoginPage from '../pages/LoginPage';
 import ErrorPage from '../pages/ErrorPage';
 
 const Page = () => {
@@ -24,6 +25,10 @@ const Page = () => {
 			<Route
 				path='/admin'
 				Component={AdminPage}
+			/>
+			<Route
+				path='/login'
+				Component={LoginPage}
 			/>
 			<Route
 				path='*'
