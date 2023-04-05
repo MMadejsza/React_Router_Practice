@@ -2,6 +2,7 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import ContactPage from '../pages/ContactPage';
+import ProductListPage from '../pages/ProductListPage';
 import ProductPage from '../pages/ProductPage';
 import AdminPage from '../pages/AdminPage';
 import LoginPage from '../pages/LoginPage';
@@ -20,7 +21,7 @@ const Page = () => {
 			/>
 			<Route
 				path='/products'
-				Component={ProductPage}
+				Component={ProductListPage}
 			/>
 			<Route
 				path='/admin'
