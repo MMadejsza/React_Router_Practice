@@ -36,7 +36,6 @@ export default Footer;
 const FooterResp = () => {
 	const {pathname} = useLocation();
 	const {page, idProduct} = useParams();
-	console.log(useParams());
 	return (
 		<>
 			<p>
