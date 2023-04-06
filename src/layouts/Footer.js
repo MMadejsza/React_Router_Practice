@@ -3,8 +3,6 @@ import {Route, Routes, useLocation, useParams} from 'react-router-dom';
 import '../styles/Footer.css';
 
 const Footer = () => {
-	const {pathname} = useLocation();
-	const {page, idProduct} = useParams();
 	return (
 		<div>
 			<h2>Footer</h2>

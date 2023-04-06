@@ -15,35 +15,35 @@ const Header = () => {
 						src={img1}
 						alt='city'
 					/>
-				}
-			/>
-			<Route
-				path='/products'
-				element={
-					<img
-						src={img2}
-						alt='city'
-					/>
-				}
-			/>
-			<Route
-				path='/contact'
-				element={
-					<img
-						src={img3}
-						alt='city'
-					/>
-				}
-			/>
-			<Route
-				path='/admin'
-				element={
-					<img
-						src={img1}
-						alt='city'
-					/>
-				}
-			/>
+				}>
+				<Route
+					path='/products'
+					element={
+						<img
+							src={img2}
+							alt='city'
+						/>
+					}
+				/>
+				<Route
+					path='/contact'
+					element={
+						<img
+							src={img3}
+							alt='city'
+						/>
+					}
+				/>
+				<Route
+					path='/admin'
+					element={
+						<img
+							src={img1}
+							alt='city'
+						/>
+					}
+				/>
+			</Route>
 			<Route
 				path='*'
 				element={
