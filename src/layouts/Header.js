@@ -17,7 +17,7 @@ const Header = () => {
 					/>
 				}>
 				<Route
-					path='/products'
+					path='products'
 					element={
 						<img
 							src={img2}
@@ -26,7 +26,7 @@ const Header = () => {
 					}
 				/>
 				<Route
-					path='/contact'
+					path='contact'
 					element={
 						<img
 							src={img3}
@@ -35,7 +35,7 @@ const Header = () => {
 					}
 				/>
 				<Route
-					path='/admin'
+					path='admin'
 					element={
 						<img
 							src={img1}
