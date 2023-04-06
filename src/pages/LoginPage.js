@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Dummy Login Page
 const LoginPage = () => {
 	return (
 		<div>
